@@ -1,0 +1,13 @@
+tolerance 2.0
+filetype pdb
+output m-new.pdb
+
+structure 1.pdb 
+  number 1 
+  fixed 0.0 0.0 0.0 0.0 0.0 0.0 
+end structure
+
+structure Li.pdb 
+  number 10
+  inside box 0. 0. 10. 79.241 79.693 100.
+end structure
